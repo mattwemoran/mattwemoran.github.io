@@ -1,0 +1,15 @@
+body {
+	background-color: #pink;
+	margin: 1em;
+}
+
+h1{
+	color: black;
+}
+
+p {
+	font-size: 24px;
+	color: black;
+	max-width: 80em;
+	width: 100%;
+}

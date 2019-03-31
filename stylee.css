@@ -80,4 +80,62 @@ a{
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
+.photos{
+	display: inline;
+}
+
+/*photos*/
+
+ 
+  * {box-sizing: border-box;}
+.wrapper {
+  max-width: 98%;
+  margin: 0 auto;
+}
+.wrapper > div {
+  bord er: 2px solid hsla(35,100%,50%,1);
+  border-radius: 5px;
+  backgro und-color: hsla(35,100%,70%,.5);
+  padding: 1em;
+  co lor: hsla(20,100%,45%,1);
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 4fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  grid-column: 4 / 10;
+  grid-row: 2;
+  text-align: center;
+}
+.two { 
+  grid-column: 2 / 6;
+  grid-row: 5;
+}
+.three {
+  grid-column: 7/ 11;
+  grid-row: 6;
+}
+.four {
+  grid-column: 2 / 6;
+  grid-row: 7;
+}
+.five {
+  grid-column: 7 /11;
+  grid-row: 8;
+}
+.six {
+  grid-column: 2 / 6;
+  grid-row: 9;
+}
+@media (max-width: 568px) {
+	.wrapper {display: block;}
+}
+
+.pic{
+	text-align: center;
+	margin-top: none;
+}
 

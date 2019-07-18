@@ -1,25 +1,15 @@
-
-p {
-	font-size: 18px;
-	line-height: 1.6;
-	margin-bottom: 20px;
+body {
+	background-color: #pink;
+	margin: 1em;
 }
 
-a:link {
+h1{
 	color: black;
 }
 
-nav {
-	background-color: white;
-}
-h1, li {
-	color: red;
-	font-family: futura
-}
-h3{
-	color: white;
-}
-
-.home{
-	color: red;
+p {
+	font-size: 24px;
+	color: black;
+	max-width: 80em;
+	width: 100%;
 }

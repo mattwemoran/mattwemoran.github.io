@@ -132,24 +132,24 @@ a{
   grid-row: 9;
 }
 .seven{
-	 grid-column: 2 / 6;
-  grid-row: 9;
-}
-.eight{
 	 grid-column: 7 / 11;
   grid-row: 10;
 }
-.nine{
+.eight{
 	 grid-column: 2 / 6;
   grid-row: 11;
 }
-.ten{
+.nine{
 	 grid-column: 7 / 11;
   grid-row: 12;
 }
-.eleven{
+.ten{
 	 grid-column: 2 / 6;
   grid-row: 13;
+}
+.eleven{
+	 grid-column: 7 / 11;
+  grid-row: 14;
 }
 
 @media (max-width: 568px) {

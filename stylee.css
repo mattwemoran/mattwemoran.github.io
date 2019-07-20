@@ -248,16 +248,16 @@ a{
   grid-row: 9;
 }
 .sevenport{
-	 grid-column: 2 / 6;
-  grid-row: 9;
-}
-.eightport{
-	 grid-column: 7 / 11;
+	 grid-column: 7 /11;
   grid-row: 10;
 }
-.nineport{
+.eightport{
 	 grid-column: 2 / 6;
   grid-row: 11;
+}
+.nineport{
+	 grid-column: 7 / 11;
+  grid-row: 12;
 }
 @media (max-width: 568px) {
 	.wrapper {display: block;}
